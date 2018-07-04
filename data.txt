@@ -1,0 +1,46 @@
+[
+	["clothing", 
+		[
+			"all", 
+			"dresses"
+		]
+	], 
+	["accesories", 
+		[
+			"all",
+			"dresses"
+		]
+	],
+	["colors",
+		[
+			"beige",
+			"blue"
+		]
+	], 
+	["sizes", 
+		[
+			"16, xl, xxl",
+			"18, xxl"
+		]
+	], 
+	["brands", 
+		[
+			"baggu",
+			"100 &amp; NY"
+		]
+	], 
+	["spaceships", 
+		[
+			"fast one",
+			"slow ones"
+		]
+	], 
+	["FTL drive", 
+		[
+			"BIG",
+			"small",
+			"complex",
+			"efficient"
+		]
+	]
+]

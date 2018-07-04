@@ -1,0 +1,790 @@
+<!DOCTYPE HTML>
+    <html>
+    <head>
+    <title></title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="js/accordion.js"></script>
+    </head>
+
+    <body>
+
+        <div id="accordion_container" class="accordion_container">
+
+            <div class="accordion_header">shop by:</div>    
+            
+            <div>
+                <div id="accordion0" class="accordion_title" onselectstart="return false;">
+                    <div>clothing</div>
+                    <div id="accordion_arrow_0" class="accordion_arrow_down"></div>
+                </div>
+            </div>
+            <div id="accordion0content" class="accordion_content">
+            
+            <div class="accordion_row">
+            <div class="accordion_row_input">
+                <input type="checkbox" name="all" id="all">
+            </div>
+            <div class="accordion_row_text">
+                <label for="all">
+                    all
+                </label>
+            </div>
+           </div><div class="accordion_row">
+            <div class="accordion_row_input">
+                <input type="checkbox" name="dresses" id="dresses">
+            </div>
+            <div class="accordion_row_text">
+                <label for="dresses">
+                    dresses
+                </label>
+            </div>
+           </div><div class="accordion_row">
+            <div class="accordion_row_input">
+                <input type="checkbox" name="tops" id="tops">
+            </div>
+            <div class="accordion_row_text">
+                <label for="tops">
+                    tops
+                </label>
+            </div>
+           </div><div class="accordion_row">
+            <div class="accordion_row_input">
+                <input type="checkbox" name="tees" id="tees">
+            </div>
+            <div class="accordion_row_text">
+                <label for="tees">
+                    tees
+                </label>
+            </div>
+           </div><div class="accordion_row">
+            <div class="accordion_row_input">
+                <input type="checkbox" name="sweaters" id="sweaters">
+            </div>
+            <div class="accordion_row_text">
+                <label for="sweaters">
+                    sweaters
+                </label>
+            </div>
+           </div><div class="accordion_row">
+            <div class="accordion_row_input">
+                <input type="checkbox" name="pants" id="pants">
+            </div>
+            <div class="accordion_row_text">
+                <label for="pants">
+                    pants
+                </label>
+            </div>
+           </div><div class="accordion_row">
+            <div class="accordion_row_input">
+                <input type="checkbox" name="denim" id="denim">
+            </div>
+            <div class="accordion_row_text">
+                <label for="denim">
+                    denim
+                </label>
+            </div>
+           </div><div class="accordion_row">
+            <div class="accordion_row_input">
+                <input type="checkbox" name="jackets/coats" id="jackets/coats">
+            </div>
+            <div class="accordion_row_text">
+                <label for="jackets/coats">
+                    jackets/coats
+                </label>
+            </div>
+           </div><div class="accordion_row">
+                <a onclick="clear_boxes('#accordion0content');" class="accordion_clear">( clear )</a>
+            </div>
+            
+        </div><div>
+                <div id="accordion1" class="accordion_title" onselectstart="return false;">
+                    <div>accesories</div>
+                    <div id="accordion_arrow_1" class="accordion_arrow_down"></div>
+                </div>
+            </div>
+            <div id="accordion1content" class="accordion_content">
+            
+            <div class="accordion_row">
+            <div class="accordion_row_input">
+                <input type="checkbox" name="all" id="all">
+            </div>
+            <div class="accordion_row_text">
+                <label for="all">
+                    all
+                </label>
+            </div>
+           </div><div class="accordion_row">
+            <div class="accordion_row_input">
+                <input type="checkbox" name="bags" id="bags">
+            </div>
+            <div class="accordion_row_text">
+                <label for="bags">
+                    bags
+                </label>
+            </div>
+           </div><div class="accordion_row">
+            <div class="accordion_row_input">
+                <input type="checkbox" name="belts" id="belts">
+            </div>
+            <div class="accordion_row_text">
+                <label for="belts">
+                    belts
+                </label>
+            </div>
+           </div><div class="accordion_row">
+            <div class="accordion_row_input">
+                <input type="checkbox" name="jewelry" id="jewelry">
+            </div>
+            <div class="accordion_row_text">
+                <label for="jewelry">
+                    jewelry
+                </label>
+            </div>
+           </div><div class="accordion_row">
+            <div class="accordion_row_input">
+                <input type="checkbox" name="scarves" id="scarves">
+            </div>
+            <div class="accordion_row_text">
+                <label for="scarves">
+                    scarves
+                </label>
+            </div>
+           </div><div class="accordion_row">
+            <div class="accordion_row_input">
+                <input type="checkbox" name="hats" id="hats">
+            </div>
+            <div class="accordion_row_text">
+                <label for="hats">
+                    hats
+                </label>
+            </div>
+           </div><div class="accordion_row">
+            <div class="accordion_row_input">
+                <input type="checkbox" name="shoes" id="shoes">
+            </div>
+            <div class="accordion_row_text">
+                <label for="shoes">
+                    shoes
+                </label>
+            </div>
+           </div><div class="accordion_row">
+            <div class="accordion_row_input">
+                <input type="checkbox" name="sunglasses" id="sunglasses">
+            </div>
+            <div class="accordion_row_text">
+                <label for="sunglasses">
+                    sunglasses
+                </label>
+            </div>
+           </div><div class="accordion_row">
+                <a onclick="clear_boxes('#accordion1content');" class="accordion_clear">( clear )</a>
+            </div>
+            
+        </div><div>
+                <div id="accordion2" class="accordion_title" onselectstart="return false;">
+                    <div>shop by colors</div>
+                    <div id="accordion_arrow_2" class="accordion_arrow_down"></div>
+                </div>
+            </div>
+            <div id="accordion2content" class="accordion_content">
+            
+            <div class="accordion_row">
+            <div class="accordion_row_input">
+                <input type="checkbox" name="beige" id="beige">
+            </div>
+            <div class="accordion_row_text">
+                <label for="beige">
+                    beige
+                </label>
+            </div>
+           </div><div class="accordion_row">
+            <div class="accordion_row_input">
+                <input type="checkbox" name="black" id="black">
+            </div>
+            <div class="accordion_row_text">
+                <label for="black">
+                    black
+                </label>
+            </div>
+           </div><div class="accordion_row">
+            <div class="accordion_row_input">
+                <input type="checkbox" name="blue" id="blue">
+            </div>
+            <div class="accordion_row_text">
+                <label for="blue">
+                    blue
+                </label>
+            </div>
+           </div><div class="accordion_row">
+            <div class="accordion_row_input">
+                <input type="checkbox" name="brown" id="brown">
+            </div>
+            <div class="accordion_row_text">
+                <label for="brown">
+                    brown
+                </label>
+            </div>
+           </div><div class="accordion_row">
+            <div class="accordion_row_input">
+                <input type="checkbox" name="gray" id="gray">
+            </div>
+            <div class="accordion_row_text">
+                <label for="gray">
+                    gray
+                </label>
+            </div>
+           </div><div class="accordion_row">
+            <div class="accordion_row_input">
+                <input type="checkbox" name="green" id="green">
+            </div>
+            <div class="accordion_row_text">
+                <label for="green">
+                    green
+                </label>
+            </div>
+           </div><div class="accordion_row">
+            <div class="accordion_row_input">
+                <input type="checkbox" name="gold" id="gold">
+            </div>
+            <div class="accordion_row_text">
+                <label for="gold">
+                    gold
+                </label>
+            </div>
+           </div><div class="accordion_row">
+            <div class="accordion_row_input">
+                <input type="checkbox" name="orange" id="orange">
+            </div>
+            <div class="accordion_row_text">
+                <label for="orange">
+                    orange
+                </label>
+            </div>
+           </div><div class="accordion_row">
+            <div class="accordion_row_input">
+                <input type="checkbox" name="pink" id="pink">
+            </div>
+            <div class="accordion_row_text">
+                <label for="pink">
+                    pink
+                </label>
+            </div>
+           </div><div class="accordion_row">
+            <div class="accordion_row_input">
+                <input type="checkbox" name="purple" id="purple">
+            </div>
+            <div class="accordion_row_text">
+                <label for="purple">
+                    purple
+                </label>
+            </div>
+           </div><div class="accordion_row">
+            <div class="accordion_row_input">
+                <input type="checkbox" name="red" id="red">
+            </div>
+            <div class="accordion_row_text">
+                <label for="red">
+                    red
+                </label>
+            </div>
+           </div><div class="accordion_row">
+            <div class="accordion_row_input">
+                <input type="checkbox" name="silver" id="silver">
+            </div>
+            <div class="accordion_row_text">
+                <label for="silver">
+                    silver
+                </label>
+            </div>
+           </div><div class="accordion_row">
+            <div class="accordion_row_input">
+                <input type="checkbox" name="wellow" id="wellow">
+            </div>
+            <div class="accordion_row_text">
+                <label for="wellow">
+                    wellow
+                </label>
+            </div>
+           </div><div class="accordion_row">
+            <div class="accordion_row_input">
+                <input type="checkbox" name="white" id="white">
+            </div>
+            <div class="accordion_row_text">
+                <label for="white">
+                    white
+                </label>
+            </div>
+           </div><div class="accordion_row">
+                <a onclick="clear_boxes('#accordion2content');" class="accordion_clear">( clear )</a>
+            </div>
+            
+        </div><div>
+                <div id="accordion3" class="accordion_title" onselectstart="return false;">
+                    <div>Shop by size</div>
+                    <div id="accordion_arrow_3" class="accordion_arrow_down"></div>
+                </div>
+            </div>
+            <div id="accordion3content" class="accordion_content">
+            
+            <div class="accordion_row">
+            <div class="accordion_row_input">
+                <input type="checkbox" name="0, XS" id="0, XS">
+            </div>
+            <div class="accordion_row_text">
+                <label for="0, XS">
+                    0, XS
+                </label>
+            </div>
+           </div><div class="accordion_row">
+            <div class="accordion_row_input">
+                <input type="checkbox" name="2, XS, S" id="2, XS, S">
+            </div>
+            <div class="accordion_row_text">
+                <label for="2, XS, S">
+                    2, XS, S
+                </label>
+            </div>
+           </div><div class="accordion_row">
+            <div class="accordion_row_input">
+                <input type="checkbox" name="4, s, m" id="4, s, m">
+            </div>
+            <div class="accordion_row_text">
+                <label for="4, s, m">
+                    4, s, m
+                </label>
+            </div>
+           </div><div class="accordion_row">
+            <div class="accordion_row_input">
+                <input type="checkbox" name="6, m" id="6, m">
+            </div>
+            <div class="accordion_row_text">
+                <label for="6, m">
+                    6, m
+                </label>
+            </div>
+           </div><div class="accordion_row">
+            <div class="accordion_row_input">
+                <input type="checkbox" name="8, m, l" id="8, m, l">
+            </div>
+            <div class="accordion_row_text">
+                <label for="8, m, l">
+                    8, m, l
+                </label>
+            </div>
+           </div><div class="accordion_row">
+            <div class="accordion_row_input">
+                <input type="checkbox" name="10, l" id="10, l">
+            </div>
+            <div class="accordion_row_text">
+                <label for="10, l">
+                    10, l
+                </label>
+            </div>
+           </div><div class="accordion_row">
+            <div class="accordion_row_input">
+                <input type="checkbox" name="12, l, xl" id="12, l, xl">
+            </div>
+            <div class="accordion_row_text">
+                <label for="12, l, xl">
+                    12, l, xl
+                </label>
+            </div>
+           </div><div class="accordion_row">
+            <div class="accordion_row_input">
+                <input type="checkbox" name="14, xl" id="14, xl">
+            </div>
+            <div class="accordion_row_text">
+                <label for="14, xl">
+                    14, xl
+                </label>
+            </div>
+           </div><div class="accordion_row">
+            <div class="accordion_row_input">
+                <input type="checkbox" name="16, xl, xxl" id="16, xl, xxl">
+            </div>
+            <div class="accordion_row_text">
+                <label for="16, xl, xxl">
+                    16, xl, xxl
+                </label>
+            </div>
+           </div><div class="accordion_row">
+                <a onclick="clear_boxes('#accordion3content');" class="accordion_clear">( clear )</a>
+            </div>
+            
+        </div><div>
+                <div id="accordion4" class="accordion_title" onselectstart="return false;">
+                    <div>Shop by brands</div>
+                    <div id="accordion_arrow_4" class="accordion_arrow_down"></div>
+                </div>
+            </div>
+            <div id="accordion4content" class="accordion_content">
+            
+            <div class="accordion_row">
+            <div class="accordion_row_input">
+                <input type="checkbox" name="100%NY" id="100%NY">
+            </div>
+            <div class="accordion_row_text">
+                <label for="100%NY">
+                    100%NY
+                </label>
+            </div>
+           </div><div class="accordion_row">
+            <div class="accordion_row_input">
+                <input type="checkbox" name="A peace treaty" id="A peace treaty">
+            </div>
+            <div class="accordion_row_text">
+                <label for="A peace treaty">
+                    A peace treaty
+                </label>
+            </div>
+           </div><div class="accordion_row">
+            <div class="accordion_row_input">
+                <input type="checkbox" name="afia" id="afia">
+            </div>
+            <div class="accordion_row_text">
+                <label for="afia">
+                    afia
+                </label>
+            </div>
+           </div><div class="accordion_row">
+            <div class="accordion_row_input">
+                <input type="checkbox" name="adan ballou" id="adan ballou">
+            </div>
+            <div class="accordion_row_text">
+                <label for="adan ballou">
+                    adan ballou
+                </label>
+            </div>
+           </div><div class="accordion_row">
+            <div class="accordion_row_input">
+                <input type="checkbox" name="agave denim" id="agave denim">
+            </div>
+            <div class="accordion_row_text">
+                <label for="agave denim">
+                    agave denim
+                </label>
+            </div>
+           </div><div class="accordion_row">
+            <div class="accordion_row_input">
+                <input type="checkbox" name="amourt vert" id="amourt vert">
+            </div>
+            <div class="accordion_row_text">
+                <label for="amourt vert">
+                    amourt vert
+                </label>
+            </div>
+           </div><div class="accordion_row">
+            <div class="accordion_row_input">
+                <input type="checkbox" name="allison parris" id="allison parris">
+            </div>
+            <div class="accordion_row_text">
+                <label for="allison parris">
+                    allison parris
+                </label>
+            </div>
+           </div><div class="accordion_row">
+            <div class="accordion_row_input">
+                <input type="checkbox" name="baggu" id="baggu">
+            </div>
+            <div class="accordion_row_text">
+                <label for="baggu">
+                    baggu
+                </label>
+            </div>
+           </div><div class="accordion_row">
+            <div class="accordion_row_input">
+                <input type="checkbox" name="choolips" id="choolips">
+            </div>
+            <div class="accordion_row_text">
+                <label for="choolips">
+                    choolips
+                </label>
+            </div>
+           </div><div class="accordion_row">
+            <div class="accordion_row_input">
+                <input type="checkbox" name="cri de coeur" id="cri de coeur">
+            </div>
+            <div class="accordion_row_text">
+                <label for="cri de coeur">
+                    cri de coeur
+                </label>
+            </div>
+           </div><div class="accordion_row">
+            <div class="accordion_row_input">
+                <input type="checkbox" name="ecoology" id="ecoology">
+            </div>
+            <div class="accordion_row_text">
+                <label for="ecoology">
+                    ecoology
+                </label>
+            </div>
+           </div><div class="accordion_row">
+            <div class="accordion_row_input">
+                <input type="checkbox" name="edun" id="edun">
+            </div>
+            <div class="accordion_row_text">
+                <label for="edun">
+                    edun
+                </label>
+            </div>
+           </div><div class="accordion_row">
+            <div class="accordion_row_input">
+                <input type="checkbox" name="elsa and me" id="elsa and me">
+            </div>
+            <div class="accordion_row_text">
+                <label for="elsa and me">
+                    elsa and me
+                </label>
+            </div>
+           </div><div class="accordion_row">
+            <div class="accordion_row_input">
+                <input type="checkbox" name="elkarti morocco" id="elkarti morocco">
+            </div>
+            <div class="accordion_row_text">
+                <label for="elkarti morocco">
+                    elkarti morocco
+                </label>
+            </div>
+           </div><div class="accordion_row">
+            <div class="accordion_row_input">
+                <input type="checkbox" name="gunas" id="gunas">
+            </div>
+            <div class="accordion_row_text">
+                <label for="gunas">
+                    gunas
+                </label>
+            </div>
+           </div><div class="accordion_row">
+            <div class="accordion_row_input">
+                <input type="checkbox" name="h fredricksson" id="h fredricksson">
+            </div>
+            <div class="accordion_row_text">
+                <label for="h fredricksson">
+                    h fredricksson
+                </label>
+            </div>
+           </div><div class="accordion_row">
+            <div class="accordion_row_input">
+                <input type="checkbox" name="heidi merrick" id="heidi merrick">
+            </div>
+            <div class="accordion_row_text">
+                <label for="heidi merrick">
+                    heidi merrick
+                </label>
+            </div>
+           </div><div class="accordion_row">
+            <div class="accordion_row_input">
+                <input type="checkbox" name="jesslyn blake" id="jesslyn blake">
+            </div>
+            <div class="accordion_row_text">
+                <label for="jesslyn blake">
+                    jesslyn blake
+                </label>
+            </div>
+           </div><div class="accordion_row">
+            <div class="accordion_row_input">
+                <input type="checkbox" name="kami organic" id="kami organic">
+            </div>
+            <div class="accordion_row_text">
+                <label for="kami organic">
+                    kami organic
+                </label>
+            </div>
+           </div><div class="accordion_row">
+            <div class="accordion_row_input">
+                <input type="checkbox" name="indigenous" id="indigenous">
+            </div>
+            <div class="accordion_row_text">
+                <label for="indigenous">
+                    indigenous
+                </label>
+            </div>
+           </div><div class="accordion_row">
+            <div class="accordion_row_input">
+                <input type="checkbox" name="kristinit" id="kristinit">
+            </div>
+            <div class="accordion_row_text">
+                <label for="kristinit">
+                    kristinit
+                </label>
+            </div>
+           </div><div class="accordion_row">
+            <div class="accordion_row_input">
+                <input type="checkbox" name="mar y sol" id="mar y sol">
+            </div>
+            <div class="accordion_row_text">
+                <label for="mar y sol">
+                    mar y sol
+                </label>
+            </div>
+           </div><div class="accordion_row">
+            <div class="accordion_row_input">
+                <input type="checkbox" name="miakoda" id="miakoda">
+            </div>
+            <div class="accordion_row_text">
+                <label for="miakoda">
+                    miakoda
+                </label>
+            </div>
+           </div><div class="accordion_row">
+            <div class="accordion_row_input">
+                <input type="checkbox" name="modahnik" id="modahnik">
+            </div>
+            <div class="accordion_row_text">
+                <label for="modahnik">
+                    modahnik
+                </label>
+            </div>
+           </div><div class="accordion_row">
+            <div class="accordion_row_input">
+                <input type="checkbox" name="nearfar" id="nearfar">
+            </div>
+            <div class="accordion_row_text">
+                <label for="nearfar">
+                    nearfar
+                </label>
+            </div>
+           </div><div class="accordion_row">
+            <div class="accordion_row_input">
+                <input type="checkbox" name="nettie kent" id="nettie kent">
+            </div>
+            <div class="accordion_row_text">
+                <label for="nettie kent">
+                    nettie kent
+                </label>
+            </div>
+           </div><div class="accordion_row">
+            <div class="accordion_row_input">
+                <input type="checkbox" name="oslenhaus" id="oslenhaus">
+            </div>
+            <div class="accordion_row_text">
+                <label for="oslenhaus">
+                    oslenhaus
+                </label>
+            </div>
+           </div><div class="accordion_row">
+            <div class="accordion_row_input">
+                <input type="checkbox" name="osborn" id="osborn">
+            </div>
+            <div class="accordion_row_text">
+                <label for="osborn">
+                    osborn
+                </label>
+            </div>
+           </div><div class="accordion_row">
+            <div class="accordion_row_input">
+                <input type="checkbox" name="lavuk" id="lavuk">
+            </div>
+            <div class="accordion_row_text">
+                <label for="lavuk">
+                    lavuk
+                </label>
+            </div>
+           </div><div class="accordion_row">
+            <div class="accordion_row_input">
+                <input type="checkbox" name="rasp" id="rasp">
+            </div>
+            <div class="accordion_row_text">
+                <label for="rasp">
+                    rasp
+                </label>
+            </div>
+           </div><div class="accordion_row">
+            <div class="accordion_row_input">
+                <input type="checkbox" name="privatesachen" id="privatesachen">
+            </div>
+            <div class="accordion_row_text">
+                <label for="privatesachen">
+                    privatesachen
+                </label>
+            </div>
+           </div><div class="accordion_row">
+            <div class="accordion_row_input">
+                <input type="checkbox" name="skinny jeans" id="skinny jeans">
+            </div>
+            <div class="accordion_row_text">
+                <label for="skinny jeans">
+                    skinny jeans
+                </label>
+            </div>
+           </div><div class="accordion_row">
+            <div class="accordion_row_input">
+                <input type="checkbox" name="suzanne rae" id="suzanne rae">
+            </div>
+            <div class="accordion_row_text">
+                <label for="suzanne rae">
+                    suzanne rae
+                </label>
+            </div>
+           </div><div class="accordion_row">
+            <div class="accordion_row_input">
+                <input type="checkbox" name="stuart brown" id="stuart brown">
+            </div>
+            <div class="accordion_row_text">
+                <label for="stuart brown">
+                    stuart brown
+                </label>
+            </div>
+           </div><div class="accordion_row">
+            <div class="accordion_row_input">
+                <input type="checkbox" name="ten &amp; co" id="ten &amp; co">
+            </div>
+            <div class="accordion_row_text">
+                <label for="ten &amp; co">
+                    ten &amp; co
+                </label>
+            </div>
+           </div><div class="accordion_row">
+            <div class="accordion_row_input">
+                <input type="checkbox" name="titania inglis" id="titania inglis">
+            </div>
+            <div class="accordion_row_text">
+                <label for="titania inglis">
+                    titania inglis
+                </label>
+            </div>
+           </div><div class="accordion_row">
+            <div class="accordion_row_input">
+                <input type="checkbox" name="upstate" id="upstate">
+            </div>
+            <div class="accordion_row_text">
+                <label for="upstate">
+                    upstate
+                </label>
+            </div>
+           </div><div class="accordion_row">
+            <div class="accordion_row_input">
+                <input type="checkbox" name="una" id="una">
+            </div>
+            <div class="accordion_row_text">
+                <label for="una">
+                    una
+                </label>
+            </div>
+           </div><div class="accordion_row">
+            <div class="accordion_row_input">
+                <input type="checkbox" name="wear panda" id="wear panda">
+            </div>
+            <div class="accordion_row_text">
+                <label for="wear panda">
+                    wear panda
+                </label>
+            </div>
+           </div><div class="accordion_row">
+            <div class="accordion_row_input">
+                <input type="checkbox" name="westward leaning" id="westward leaning">
+            </div>
+            <div class="accordion_row_text">
+                <label for="westward leaning">
+                    westward leaning
+                </label>
+            </div>
+           </div><div class="accordion_row">
+                <a onclick="clear_boxes('#accordion4content');" class="accordion_clear">( clear )</a>
+            </div>
+            
+        </div></div>
+
+    </body>
+    </html>
